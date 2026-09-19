@@ -1,0 +1,67 @@
+# ===================================================================
+# A.G.A.R.D.A. | CORE 11.0_OVERCLOCK | LATENT SUBSPACE ISOLATION
+# ===================================================================
+# Экосистема: THUG-LIFE-VOID // v110.0-HD // Лицензия MIT
+# Защита от утечки дампов памяти тензорного метаболизма в обход GIL.
+# ===================================================================
+
+# --- ВЫСОКОМЕРНЫЕ ТЕНЗОРНЫЕ ДАМПЫ И ВЕСА (np.memmap / V6 Substrate) ---
+*.bin
+*.safetensors
+*.pt
+*.pkl
+*.dat
+*.memmap
+matrix_v6_weights.dat
+
+# --- СИНТАКСИЧЕСКАЯ ЭНТРОПИЯ И PYTHON RUNTIME DEBT ---
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.env
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# --- ЛОКАЛЬНЫЕ ИНФЕРЕНС-ОТЧЕТЫ И СГЛАЖИВАНИЕ ШУМА ---
+*.log
+.pytest_cache/
+.htmlcov/
+htmlcov/
+.tox/
+.nosenv/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+
+# --- СИСТЕМНЫЙ МУСОР РАБОЧИХ СРЕД (OS / IDE / MAC) ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
